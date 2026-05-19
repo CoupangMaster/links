@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>추천 상품 상세 보기</title>
+    <style>
+        body {
+            font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #333;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            padding: 40px 24px;
+            width: 100%;
+            max-width: 480px;
+            text-align: center;
+            box-sizing: border-box;
+            margin: 20px;
+        }
+        .icon {
+            font-size: 48px;
+            margin-bottom: 24px;
+        }
+        .subtitle {
+            font-size: 16px;
+            font-weight: 500;
+            color: #222;
+            margin-bottom: 32px;
+            line-height: 1.6;
+            word-break: keep-all;
+        }
+        .btn-coupang {
+            display: block;
+            background-color: #0074e9;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 700;
+            padding: 16px 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 116, 233, 0.3);
+            transition: all 0.2s ease;
+            margin-bottom: 40px;
+        }
+        .btn-coupang:hover {
+            background-color: #005ec3;
+            transform: translateY(-2px);
+        }
+        .btn-coupang:active {
+            transform: translateY(0);
+        }
+        .notice {
+            font-size: 11px;
+            color: #999;
+            line-height: 1.6;
+            border-top: 1px dashed #e5e5e5;
+            padding-top: 20px;
+            word-break: keep-all;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="icon">🎁</div>
+        <p class="subtitle">요청하신 블로그 추천 상품의 실시간 할인가 및 재고 현황을 보시려면 아래 쿠팡 공식 버튼을 클릭해 주세요.</p>
+        
+        <a href="https://link.coupang.com/a/dSJJmL64ui" class="btn-coupang" target="_blank" rel="noopener noreferrer">
+            쿠팡에서 최저가 확인하기 ➔
+        </a>
+        
+        <div class="notice">
+            ※ 이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+        </div>
+    </div>
+
+</body>
+</html>
